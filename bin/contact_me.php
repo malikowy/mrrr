@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // check if fields passed are empty
 if(empty($_POST['name'])  		||
    empty($_POST['phone']) 		||
@@ -14,7 +14,6 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
-$upload_folder = './uploads/';
 	
 // create email body and send it	
 $to = 'biuro@meblerecznierobione.pl'; // PUT YOUR EMAIL ADDRESS HERE
